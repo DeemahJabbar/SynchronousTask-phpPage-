@@ -1,0 +1,42 @@
+*{
+  -webkit-user-select: none;
+  cursor: default;
+}
+body{
+  background: #ccccff;
+}
+.container{
+  max-width:600px;
+  margin:auto;
+  border-radius: 60px;
+  background-color:#2c3e50;
+  padding: 5px;
+  text-align: center ;
+  color:white;
+}
+.text{
+  text-align: right ;
+  display: inline;
+  color:black;
+}
+table, th, td {
+   padding: 10px;
+  text-align: center;  
+}
+.button {
+  width: 150px;
+  background-color: #ccccff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
+ .button:hover {opacity: 1}
